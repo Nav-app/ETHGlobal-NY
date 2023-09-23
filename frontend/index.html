@@ -9,10 +9,13 @@
             background-color: #fafafa;
             margin: 0;
             padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
         .container {
             width: 40%;
-            margin: auto;
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -48,30 +51,47 @@
         <header>
             <h1>3D Print Your NFT</h1>
         </header>
-        <a id="connectWallet" class="button" href="javascript:void(0);">Connect Wallet</a>
-        <a id="connectOpenSea" class="button" href="javascript:void(0);">Connect to OpenSea</a>
-        <a id="connectShopify" class="button" href="javascript:void(0);">Connect to Shopify</a>
+        <p id="status">Not connected</p>
+        <iframe 
+            title="OpenSea Collection"
+            width="100%" 
+            height="500px" 
+            src="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/91087323867861065123692610173492082007842679956767720571544234637601705820161" 
+            frameborder="0"
+        ></iframe>
+
+        <button id="connectWallet" class="button" onclick="connectWallet()">Connect Wallet</button>
+        <a id="connectOpenSea" class="button" href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/91087323867861065123692610173492082007842679956767720571544234637601705820161/" target="_blank">Go to OpenSea</a>
+        <a id="connectShopify" class="button" href="https://774a58.myshopify.com/" target="_blank">Connect to Shopify</a>
+        
+
     </div>
     <script>
-        document.getElementById('connectWallet').addEventListener('click', function() {
-            if (window.ethereum) {
-                window.ethereum.request({ method: 'eth_requestAccounts' });
-            } else {
-                alert('MetaMask is not installed. Please consider installing it: https://metamask.io/download.html');
+        async function connectWallet() {
+    const statusElement = document.getElementById('status');
+    
+    if (window.ethereum) {
+        try {
+            const accounts = await window.ethereum.request({ method: 'eth_accounts' });
+            if (accounts.length) {
+                statusElement.textContent = `Connected: ${accounts[0]}`;
+                return;
             }
-        });
+            await window.ethereum.request({ method: 'eth_requestAccounts' });
+            statusElement.textContent = `Connected: ${accounts[0]}`;
+        } catch (error) {
+            console.error("User denied account access");
+            statusElement.textContent = 'Not connected';
+        }
+    } else {
+        console.error("Non-Ethereum browser detected. You should consider trying MetaMask!");
+        statusElement.textContent = 'MetaMask not available';
+    }
+}
 
-        document.getElementById('connectOpenSea').addEventListener('click', function() {
-            // Your logic to connect to OpenSea goes here.
-            alert('Connecting to OpenSea...');
-        });
-
-        document.getElementById('connectShopify').addEventListener('click', function() {
-            // Your logic to connect to Shopify goes here.
-            alert('Connecting to Shopify...');
-        });
     </script>
+    <script src="src/js/quicknode.js"></script>
+
     <script src="your_js_file.js"></script> <!-- Your additional JS file, if any. -->
 </body>
 </html>
-
