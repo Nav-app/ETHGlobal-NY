@@ -1,4 +1,11 @@
-# Text-to-3D NFT
+# 3D Print Your NFT
+
+## Tech Stack Overview
+- WalletConnect Web3Modal
+- NFT metadata storage on IPFS : https://bafybeigobdj2zenamjymwoj6zqrtcix3chfutpp2eli23ltzdqupudcrpm.ipfs.dweb.link/
+- CID for "Pikachu" on IPFS is bafybeigobdj2zenamjymwoj6zqrtcix3chfutpp2eli23ltzdqupudcrpm
+- The Graph integration to retrieve the image of the NFT
+- NFT smart contract deployed on the following blockchains;
 
 ## Overview
 
