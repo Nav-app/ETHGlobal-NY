@@ -7,9 +7,21 @@
 - The Graph integration to retrieve the image of the NFT
 - NFT smart contract deployed on the following blockchains;
 
+## OpenSea and Shopify Page
+- 3D Pikachu on OpenSea 
+https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/91087323867861065123692610173492082007842679956767720571544234638701217447937
+
+- Shopify store where you can order a 3D printed objectof a given NFT 
+https://774a58.myshopify.com/ 
+
+## Deployed Contracts
+Goerli : https://goerli.etherscan.io/address/0x6fa23e0613b85f0bae0765172a9c580fda1df5a8
+
+
+
 ## Overview
 
-This project enables users to generate unique 3D images from text, mint them as NFTs on Shopify, and optionally get them physically 3D printed. Below are the steps detailing the entire workflow.
+This project enables users to turn their NFTs into a 3D printed object and ship it to their home. We achieve doing so by using Shopify and a program which generates unique 3D images from text and converts a 2D image into a 3D image. Below are the steps detailing the entire workflow.
 
 ## Enhanced Workflow
 
