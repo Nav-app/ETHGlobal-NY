@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NFT to 3D Print Connector</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 40%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            border-bottom: 1px solid #eee;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            margin: 10px auto;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none; /* Remove underline from hyperlink */
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>3D Print Your NFT</h1>
+        </header>
+        <a id="connectWallet" class="button" href="javascript:void(0);">Connect Wallet</a>
+        <a id="connectOpenSea" class="button" href="javascript:void(0);">Connect to OpenSea</a>
+        <a id="connectShopify" class="button" href="javascript:void(0);">Connect to Shopify</a>
+    </div>
+    <script>
+        document.getElementById('connectWallet').addEventListener('click', function() {
+            if (window.ethereum) {
+                window.ethereum.request({ method: 'eth_requestAccounts' });
+            } else {
+                alert('MetaMask is not installed. Please consider installing it: https://metamask.io/download.html');
+            }
+        });
+
+        document.getElementById('connectOpenSea').addEventListener('click', function() {
+            // Your logic to connect to OpenSea goes here.
+            alert('Connecting to OpenSea...');
+        });
+
+        document.getElementById('connectShopify').addEventListener('click', function() {
+            // Your logic to connect to Shopify goes here.
+            alert('Connecting to Shopify...');
+        });
+    </script>
+    <script src="your_js_file.js"></script> <!-- Your additional JS file, if any. -->
+</body>
+</html>
+
