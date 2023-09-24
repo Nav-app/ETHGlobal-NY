@@ -1,0 +1,12 @@
+{
+    "name": "Pikachu",
+    "description": "Pikachu!",
+    "image": "https://bafybeid4mfcsktqi6y7qbyabd2lzug7rtdmh72ujqxqf4ivl4spnfsikbq.ipfs.dweb.link/",
+    "attributes": [
+      {
+        "trait_type": "Trait",
+        "value": "Value of trait"
+      }
+    ]
+  }
+  

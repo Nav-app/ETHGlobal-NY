@@ -2,31 +2,37 @@
 
 ## Tech Stack Overview
 - WalletConnect Web3Modal
-- NFT metadata storage on IPFS : https://bafybeigobdj2zenamjymwoj6zqrtcix3chfutpp2eli23ltzdqupudcrpm.ipfs.dweb.link/
-- CID for "Pikachu" on IPFS is bafybeigobdj2zenamjymwoj6zqrtcix3chfutpp2eli23ltzdqupudcrpm
+- NFT metadata storage on IPFS
 - The Graph integration to retrieve the image of the NFT
-- NFT smart contract deployed on the following blockchains;
+- Contract deployment on multiple chains - see Deployed Contracts section
 
 ## OpenSea and Shopify Page
-- 3D Pikachu on OpenSea 
-https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/91087323867861065123692610173492082007842679956767720571544234638701217447937
-
 - Shopify store where you can order a 3D printed objectof a given NFT 
 https://774a58.myshopify.com/ 
 
+- 3D Pikachu on OpenSea 
+https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/91087323867861065123692610173492082007842679956767720571544234638701217447937
+
 ## Deployed Contracts
-Goerli: https://goerli.etherscan.io/address/0x6fa23e0613b85f0bae0765172a9c580fda1df5a8
+
+Goerli: https://goerli.etherscan.io/address/0xc9c0bded85f07132361c5754d7383a404348686a
+
 Polygon Mumbai: https://mumbai.polygonscan.com/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
+
 Polygon zkEVM: https://testnet-zkevm.polygonscan.com/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
+
 Scroll Sepolia: https://sepolia-blockscout.scroll.io/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
+
 Base Goerli: https://goerli.basescan.org/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
-Linea Testnet: https://explorer.goerli.linea.build/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
 
+Linea Testnet: https://explorer.goerli.linea.build/address/0x4f7a9751ac661495bBD33c8494cccc174d0dfb8B
 
+IPFS: "1" ipfs://bafybeifa3765rq7uvcbzydun2dmmsww6tmffvjyyozgsongerjp44y4w4m
+IPFS: "2" ipfs://bafybeieguzyd4363gdals2qhjpkfq6zq5ljzccnptaaifkgppoge3db2tm
 
 ## Overview
 
-This project enables users to turn their NFTs into a 3D printed object and ship it to their home. We achieve doing so by using Shopify and a program which generates unique 3D images from text and converts a 2D image into a 3D image. Below are the steps detailing the entire workflow.
+This project enables users to turn their NFTs into a 3D printed object and have it shipped to their home. We achieve doing so by using Shopify and a program which generates unique 3D images from text and converts a 2D image into a 3D image. Below are the steps detailing the entire workflow.
 
 
 
