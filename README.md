@@ -38,12 +38,11 @@ This project enables users to turn their NFTs into a 3D printed object and have 
 
 ## Description
 
-This Project offers an end-to-end solution for creating, owning, and trading 3D Non-Fungible Tokens (NFTs). With Generative AI, a user can convert user-supplied text into intricate 3D images. These are minted as unique, blockchain-authenticated 3D NFTs via Shopify and OpenSea. Owners can offer these NFTs as both digital and physical collectible, with physical forms made possible through premium 3D printing services.
+This Project offers an end-to-end solution for creating, owning, and trading 3D Non-Fungible Tokens (NFTs). With Generative AI, a user can convert user-supplied text into intricate and personalized 3D images. These are minted as unique, blockchain-authenticated 3D NFTs via Shopify and OpenSea. Owners can offer these NFTs as both digital and physical collectible, with physical forms made possible through premium 3D printing services.
 
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Tech Stack](#tech-stack)
 - [Contributing](#contributing)
@@ -51,25 +50,14 @@ This Project offers an end-to-end solution for creating, owning, and trading 3D 
 
 ## Features
 
-- **Text to 3D Image**: Transform text into visually-stunning 3D images through Generative AI using alpha3d.io .
+- **Text to 3D Image**: Transform text into visually-stunning 3D images through Generative AI using www.alpha3d.io .
 - **Blockchain-Verified**: Mint 3D images as unique, secure NFTs on Shopify or OpenSea.
 - **Dual Ownership**: List 3D NFTs as digital or physical products via Shopify high-quality 3D printing services.
 - **Direct Shipping**: Handle logistics for physical NFTs, ensuring fullfillment and secure delivery.
 
-## Installation
-
-To get started:
-
-```bash
-git clone https://github.com/Ryokog/ETHGlobal-NY.git
-cd Text2NFT3D
-npm install
-npm start
-```
-
 ## Usage
 
-1. Input text in the designated section.
+1. Input text in www.alpha3d.io.
 2. Click "Generate 3D Image."
 3. Mint it as an NFT on Shopify or OpenSea.
 4. List it for sale in digital or physical form.
