@@ -3,11 +3,11 @@
 ## Tech Stack Overview
 - WalletConnect Web3Modal
 - NFT metadata storage on IPFS
-- The Graph integration to retrieve the image of the NFT
+- The Graph integration to retrieve the image of the NFT (incomplete)
 - Contract deployment on multiple chains - see Deployed Contracts section
 
 ## OpenSea and Shopify Page
-- Shopify store where you can order a 3D printed objectof a given NFT 
+- Shopify store where you can order a 3D printed object of a given NFT 
 https://774a58.myshopify.com/ 
 
 - 3D Pikachu on OpenSea 
@@ -28,15 +28,12 @@ Base Goerli: https://goerli.basescan.org/address/0xbc9504a7004259F89B9c28fd2B067
 Linea Testnet: https://explorer.goerli.linea.build/address/0x4f7a9751ac661495bBD33c8494cccc174d0dfb8B
 
 IPFS: "1" ipfs://bafybeifa3765rq7uvcbzydun2dmmsww6tmffvjyyozgsongerjp44y4w4m
+
 IPFS: "2" ipfs://bafybeieguzyd4363gdals2qhjpkfq6zq5ljzccnptaaifkgppoge3db2tm
 
 ## Overview
 
 This project enables users to turn their NFTs into a 3D printed object and have it shipped to their home. We achieve doing so by using Shopify and a program which generates unique 3D images from text and converts a 2D image into a 3D image. Below are the steps detailing the entire workflow.
-
-
-
-
 
 
 ## Description
