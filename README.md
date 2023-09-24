@@ -15,7 +15,12 @@ https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/91
 https://774a58.myshopify.com/ 
 
 ## Deployed Contracts
-Goerli : https://goerli.etherscan.io/address/0x6fa23e0613b85f0bae0765172a9c580fda1df5a8
+Goerli: https://goerli.etherscan.io/address/0x6fa23e0613b85f0bae0765172a9c580fda1df5a8
+Polygon Mumbai: https://mumbai.polygonscan.com/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
+Polygon zkEVM: https://testnet-zkevm.polygonscan.com/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
+Scroll Sepolia: https://sepolia-blockscout.scroll.io/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
+Base Goerli: https://goerli.basescan.org/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
+Linea Testnet: https://explorer.goerli.linea.build/address/0xbc9504a7004259F89B9c28fd2B0677D8a916E418
 
 
 
