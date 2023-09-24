@@ -28,41 +28,62 @@ Linea Testnet: https://explorer.goerli.linea.build/address/0xbc9504a7004259F89B9
 
 This project enables users to turn their NFTs into a 3D printed object and ship it to their home. We achieve doing so by using Shopify and a program which generates unique 3D images from text and converts a 2D image into a 3D image. Below are the steps detailing the entire workflow.
 
-## Enhanced Workflow
 
-### Step 1: Image Generation with GenAI
 
-- Users input their desired text into the "text to 3D image" bar on alpha3d.io.
-- Save the 3D image into GLB format, which is widely supported for 3D objects.
 
-### Step 2: Conversion to Shopify NFT
 
-- The GLB-formatted 3D image is imported into Shopify.
-- Shopify convert this 3D image into an NFT.
 
-### Step 3: Listing the NFT for Sale
+## Description
 
-- **What Happens**: The NFT is listed on Shopify, complete with metadata and pricing details.
-- **How It Works**: The NFT is displayed as a 3D object, making it more interactive and appealing to potential buyers.
+This Project offers an end-to-end solution for creating, owning, and trading 3D Non-Fungible Tokens (NFTs). With Generative AI, a user can convert user-supplied text into intricate 3D images. These are minted as unique, blockchain-authenticated 3D NFTs via Shopify and OpenSea. Owners can offer these NFTs as both digital and physical collectible, with physical forms made possible through premium 3D printing services.
 
-### Step 4: Integration with 3D Printing Services
+## Table of Contents
 
-- **What Happens**: The platform integrates with 3D printing services.
-- **How It Works**: This integration allows for the physical production of the 3D image.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tech Stack](#tech-stack)
+- [Contributing](#contributing)
+- [License](#license)
 
-### Step 5: User Purchase Flow
+## Features
 
-- **What Happens**: Users can either purchase the NFT or order a 3D-printed physical version of the image.
+- **Text to 3D Image**: Transform text into visually-stunning 3D images through Generative AI using alpha3d.io .
+- **Blockchain-Verified**: Mint 3D images as unique, secure NFTs on Shopify or OpenSea.
+- **Dual Ownership**: List 3D NFTs as digital or physical products via Shopify high-quality 3D printing services.
+- **Direct Shipping**: Handle logistics for physical NFTs, ensuring fullfillment and secure delivery.
 
-### Step 6: Shipping the 3D-Printed Object
+## Installation
 
-- **What Happens**: Upon a purchase of the 3D-printed version, the 3D printing service is triggered.
-- **How It Works**: The object is printed and shipped to the customer's address.
+To get started:
 
-## Getting Started
+```bash
+git clone https://github.com/Ryokog/ETHGlobal-NY.git
+cd Text2NFT3D
+npm install
+npm start
+```
 
-[Add your setup and installation instructions here]
+## Usage
+
+1. Input text in the designated section.
+2. Click "Generate 3D Image."
+3. Mint it as an NFT on Shopify or OpenSea.
+4. List it for sale in digital or physical form.
+5. For physical NFTs, complete purchase to initiate 3D printing and shipping.
+
+## Tech Stack
+
+- Generative AI
+- Ethereum Blockchain
+- Shopify API
+- OpenSea API
+- 3D Printing Services from Shopify
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Fork the repo and make your changes. Pull requests are welcome.
+
+## License
+
+MIT License
